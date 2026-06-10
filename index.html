@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>EarlyThunder Sprint 41 — LIT (Lighter) 40-AGENT VALIDATION</title>
+<title>EarlyThunder Sprint 43 — PENDLE Deep Dive (5-Agent Verified)</title>
 <style>
 :root{--bg:#0a0a0a;--fg:#e0e0e0;--cyan:#00e0ff;--green:#00ff88;--red:#ff4444;--yellow:#ffaa00;--dim:#666;--card:#111;--border:#222}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -43,10 +43,10 @@ tr.v-w{background:#1a0a0a} tr.v-p{opacity:0.5}
 </style></head><body>
 
 <div class="header">
-<h1>EARLYTHUNDER SPRINT 41 — LIT (LIGHTER) 40-AGENT VALIDATION</h1>
-<div class="sub">40-Agent LIT Deep Validation Sprint | Jun 10, 2026 | 251 Tokens | MCP Live Prices</div>
-<div class="sub" style="color:var(--yellow)">LIT $1.50 (-62.9% ATH $4.04) | 24 Citations | $77-101M rev annualized | P/S 3.7-4.9x | 50% fees→buyback | ZK rollup (Plonky2 STARK) | Stage 0</div>
-<div class="sub" style="color:var(--green)">40/40 agents COMPLETE | NEW TOKEN: LIT 125/250 WATCH | $89M VC (Founders Fund/Ribbit) | 83% vol collapse | Dec 2026 cliff 500M tokens (50%) | 4,420 holders</div>
+<h1>EARLYTHUNDER SPRINT 43 — PENDLE DEEP DIVE (5-AGENT VERIFIED)</h1>
+<div class="sub">5-Agent PENDLE Deep Dive Sprint | Jun 10, 2026 | 251 Tokens | MCP Live Prices</div>
+<div class="sub" style="color:var(--yellow)">PENDLE $1.185 (-84.2% ATH $7.52) | 15 Citations | $24.5M rev trailing | P/S 8.2x | 80% buyback via sPENDLE | 95-97% yield monopoly</div>
+<div class="sub" style="color:var(--green)">5/5 agents COMPLETE | UPGRADED: PENDLE 132→156 CAUTIOUS→HOLD | $1.14B TVL | $4B+ PT collateral | Whale +64.84% MoM | Boros V3 $10B vol | Zero unlocks</div>
 </div>
 
 <nav class="nav">
@@ -69,6 +69,7 @@ tr.v-w{background:#1a0a0a} tr.v-p{opacity:0.5}
 <span>NEAR $2.832 <span class="pos">+9.2%</span></span>
 <span>ZEC $617.76 <span class="pos">+13.1%</span></span>
 <span>ENA $0.1021 <span class="pos">+19.1%</span></span>
+<span style="color:var(--green);font-weight:bold">PENDLE $1.185 <span class="neg">-6.1%</span></span>
 <span>AAVE $75.92 <span class="neg">-2.1%</span></span>
 <span>UNI $2.507 <span class="neg">-0.9%</span></span>
 <span>LINK $8.551 <span class="neg">-3.2%</span></span>
@@ -118,9 +119,9 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 <td>155→160</td><td style="color:var(--green)">HOLD (up)</td>
 <td>Firedancer LIVE. ETF approved ($900M+ inflows). SOL-denom TVL at ATH.</td></tr>
 
-<tr><td style="color:var(--green)">PENDLE</td><td>$1.397 <span class="pos">+0.6%</span></td>
-<td>~120→149</td><td style="color:var(--green)">WAIT→CAUTIOUS</td>
-<td>sPENDLE upgrade good. Category monopoly. PT yields widening in crisis = opportunity.</td></tr>
+<tr style="background:#0a2a0a;border:1px solid var(--green)"><td style="color:var(--green);font-weight:bold">PENDLE ★</td><td>$1.185 <span class="neg">-6.1%</span></td>
+<td style="color:var(--green);font-weight:bold">132→156</td><td style="color:var(--green);font-weight:bold">CAUTIOUS→HOLD</td>
+<td style="font-size:10px"><b>Sprint 43 Deep Dive (5 agents):</b> 95-97% yield monopoly (all competitors dead). $24.5M rev, P/S 8.2x, 80% buyback. $4B+ PT collateral across Aave/Morpho/Euler. ALL vesting complete Sep 2024. Whale +64.84% MoM. Boros V3 $10B vol. 15 citations, 8 conviction signals, 6 red flags.</td></tr>
 
 <tr><td style="color:var(--green)">MORPHO</td><td>$1.990 <span class="neg">-1.1%</span></td>
 <td>157→158</td><td style="color:var(--cyan)">HOLD (up)</td>
@@ -147,7 +148,7 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 
 <!-- 250-TOKEN SCORECARD -->
 <div class="section" id="scorecard">
-<h2 class="info">251-Token Scorecard — Sprint 41</h2>
+<h2 class="info">251-Token Scorecard — Sprint 43</h2>
 <div class="sc-controls">
 <input type="text" id="sc-search" placeholder="Search token..." oninput="filterSC()">
 <select id="sc-filter" onchange="filterSC()">
@@ -347,14 +348,14 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 <td>-92.6%</td>
 <td style="font-size:10px">S39: 93.6% aggregator share. $129M rev but -78% declining. Buyback HALTED. Net-zero emissions. 3.9x P/S cheapest DeFi. LIBRA scandal.</td>
 <td>S39</td>
-</tr><tr class="v-ch" title="S30: TVL -90% but sPENDLE upgrade good. Category monopoly. PT yields widening in crisis. Score ~120→149.">
-<td>PENDLE</td><td style="font-size:11px">Pendle</td>
-<td><b>149</b></td><td>CAUTIOUS HOLD</td>
-<td>$1.397</td>
-<td class="pos">+0.7%</td>
-<td>$322M</td>
-<td>-82%</td>
-<td style="font-size:10px">58% yield monopoly BUT revenue collapsed 88% ($34M→$6.6M). P</td>
+</tr><tr class="v-h" title="S43: 5-agent deep dive. 95-97% yield monopoly. $24.5M rev, P/S 8.2x, 80% buyback. $4B+ PT collateral. ALL vesting complete. Whale +64.84% MoM. Boros V3 $10B vol. Score 132→156 HOLD.">
+<td style="color:var(--green);font-weight:bold">PENDLE</td><td style="font-size:11px">Pendle</td>
+<td style="color:var(--green)"><b>156</b></td><td style="color:var(--green)">HOLD</td>
+<td>$1.185</td>
+<td class="neg">-6.1%</td>
+<td>$202M</td>
+<td>-84%</td>
+<td style="font-size:10px">S43: 95-97% yield monopoly. $24.5M rev, P/S 8.2x, 80% buyback. $4B+ PT collateral. Boros V3. Zero unlocks.</td>
 <td>&#x2705;</td>
 </tr><tr class="v-ch" title="S29: V2 live. $26.5M mcap.">
 <td>LQTY</td><td style="font-size:11px">Liquity</td>
