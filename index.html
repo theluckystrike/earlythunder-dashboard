@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>EarlyThunder Sprint 43 — PENDLE Deep Dive (5-Agent Verified)</title>
+<title>EarlyThunder Sprint 44 — FLUID Deep Dive (5-Agent Verified)</title>
 <style>
 :root{--bg:#0a0a0a;--fg:#e0e0e0;--cyan:#00e0ff;--green:#00ff88;--red:#ff4444;--yellow:#ffaa00;--dim:#666;--card:#111;--border:#222}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -43,10 +43,10 @@ tr.v-w{background:#1a0a0a} tr.v-p{opacity:0.5}
 </style></head><body>
 
 <div class="header">
-<h1>EARLYTHUNDER SPRINT 43 — PENDLE DEEP DIVE (5-AGENT VERIFIED)</h1>
-<div class="sub">5-Agent PENDLE Deep Dive Sprint | Jun 10, 2026 | 251 Tokens | MCP Live Prices</div>
-<div class="sub" style="color:var(--yellow)">PENDLE $1.185 (-84.2% ATH $7.52) | 15 Citations | $24.5M rev trailing | P/S 8.2x | 80% buyback via sPENDLE | 95-97% yield monopoly</div>
-<div class="sub" style="color:var(--green)">5/5 agents COMPLETE | UPGRADED: PENDLE 132→156 CAUTIOUS→HOLD | $1.14B TVL | $4B+ PT collateral | Whale +64.84% MoM | Boros V3 $10B vol | Zero unlocks</div>
+<h1>EARLYTHUNDER SPRINT 44 — FLUID DEEP DIVE (5-AGENT VERIFIED)</h1>
+<div class="sub">5-Agent FLUID Deep Dive Sprint | Jun 11, 2026 | 251 Tokens | MCP Live Prices</div>
+<div class="sub" style="color:var(--yellow)">FLUID $1.091 (-75.8% ATH $4.50) | 15 Citations | $12.68M rev (NOT $45.5M — was fees) | P/S 6.7x | Buybacks HALTED | #2 DEX Ethereum</div>
+<div class="sub" style="color:var(--red)">5/5 agents COMPLETE | DOWNGRADED: FLUID 150→143 HOLD→CAUTIOUS | $696M TVL (-25%) | 55% stablecoin share | 2 security incidents 2026 | Incentives > Revenue</div>
 </div>
 
 <nav class="nav">
@@ -70,6 +70,7 @@ tr.v-w{background:#1a0a0a} tr.v-p{opacity:0.5}
 <span>ZEC $617.76 <span class="pos">+13.1%</span></span>
 <span>ENA $0.1021 <span class="pos">+19.1%</span></span>
 <span style="color:var(--green);font-weight:bold">PENDLE $1.185 <span class="neg">-6.1%</span></span>
+<span style="color:var(--red);font-weight:bold">FLUID $1.091 <span class="neg">-75.8%</span></span>
 <span>AAVE $75.92 <span class="neg">-2.1%</span></span>
 <span>UNI $2.507 <span class="neg">-0.9%</span></span>
 <span>LINK $8.551 <span class="neg">-3.2%</span></span>
@@ -123,6 +124,10 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 <td style="color:var(--green);font-weight:bold">132→156</td><td style="color:var(--green);font-weight:bold">CAUTIOUS→HOLD</td>
 <td style="font-size:10px"><b>Sprint 43 Deep Dive (5 agents):</b> 95-97% yield monopoly (all competitors dead). $24.5M rev, P/S 8.2x, 80% buyback. $4B+ PT collateral across Aave/Morpho/Euler. ALL vesting complete Sep 2024. Whale +64.84% MoM. Boros V3 $10B vol. 15 citations, 8 conviction signals, 6 red flags.</td></tr>
 
+<tr style="background:#2a0a0a;border:1px solid var(--red)"><td style="color:var(--red);font-weight:bold">FLUID ★</td><td>$1.091 <span class="pos">+0.4%</span></td>
+<td style="color:var(--red);font-weight:bold">150→143</td><td style="color:var(--red);font-weight:bold">HOLD→CAUTIOUS</td>
+<td style="font-size:10px"><b>Sprint 44 Deep Dive (5 agents):</b> CRITICAL: "$45.5M revenue" was FEES — actual revenue $12.68M (17% take rate). Buybacks HALTED since Mar 2026 (Resolv $21M bad debt). TVL declining $930M→$696M. Incentives ($13.1M) > Revenue ($12.68M). Two security incidents 2026. But: #2 DEX Ethereum, 55% stablecoin share, Smart Collateral/Debt unique, 39x capital efficiency, 100M fixed supply, all vesting complete. 15 citations, 8 red flags, 8 conviction signals.</td></tr>
+
 <tr><td style="color:var(--green)">MORPHO</td><td>$1.990 <span class="neg">-1.1%</span></td>
 <td>157→158</td><td style="color:var(--cyan)">HOLD (up)</td>
 <td>Apollo 9% stake ($938B AUM). Coinbase $2.17B originations. Fee switch still OFF.</td></tr>
@@ -148,7 +153,7 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 
 <!-- 250-TOKEN SCORECARD -->
 <div class="section" id="scorecard">
-<h2 class="info">251-Token Scorecard — Sprint 43</h2>
+<h2 class="info">251-Token Scorecard — Sprint 44</h2>
 <div class="sc-controls">
 <input type="text" id="sc-search" placeholder="Search token..." oninput="filterSC()">
 <select id="sc-filter" onchange="filterSC()">
@@ -547,13 +552,13 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 <td style="font-size:10px">$7.8B TVL on $350M mcap (22x TVL/MC). $50M buyback active. 8</td>
 <td>&#x2705;</td>
 </tr><tr class="v-ch" title="S29: May 27 hack. 4-day delayed disclosure. Trust broken. -4.7% today.">
-<td>FLUID</td><td style="font-size:11px">Fluid (Instadapp)</td>
-<td><b>130</b></td><td>CAUTIOUS HOLD</td>
-<td>$1.310</td>
-<td class="neg">-4.7%</td>
-<td>$122M</td>
-<td>-70%</td>
-<td style="font-size:10px">OG Instadapp team (2018). $982M TVL on $250K marketing budge</td>
+<td style="color:var(--yellow);font-weight:bold">FLUID ★</td><td style="font-size:11px">Fluid (Instadapp)</td>
+<td><b>143</b></td><td style="color:var(--red)">CAUTIOUS HOLD ↓</td>
+<td>$1.091</td>
+<td class="neg">-75.8%</td>
+<td>$85M</td>
+<td>-75.8%</td>
+<td style="font-size:10px">S44: Rev $12.68M (not $45.5M). Buybacks halted. TVL -25%. #2 DEX ETH, 55% stablecoin. 8 red flags.</td>
 <td>&#x2705;</td>
 </tr><tr class="v-ch">
 <td>SNX</td><td style="font-size:11px">Synthetix</td>
