@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>EarlyThunder Sprint 44 — FLUID Deep Dive (5-Agent Verified)</title>
+<title>EarlyThunder Sprint 45 — ETH Deep Dive (5-Agent Verified)</title>
 <style>
 :root{--bg:#0a0a0a;--fg:#e0e0e0;--cyan:#00e0ff;--green:#00ff88;--red:#ff4444;--yellow:#ffaa00;--dim:#666;--card:#111;--border:#222}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -43,10 +43,10 @@ tr.v-w{background:#1a0a0a} tr.v-p{opacity:0.5}
 </style></head><body>
 
 <div class="header">
-<h1>EARLYTHUNDER SPRINT 44 — FLUID DEEP DIVE (5-AGENT VERIFIED)</h1>
-<div class="sub">5-Agent FLUID Deep Dive Sprint | Jun 11, 2026 | 251 Tokens | MCP Live Prices</div>
-<div class="sub" style="color:var(--yellow)">FLUID $1.091 (-75.8% ATH $4.50) | 15 Citations | $12.68M rev (NOT $45.5M — was fees) | P/S 6.7x | Buybacks HALTED | #2 DEX Ethereum</div>
-<div class="sub" style="color:var(--red)">5/5 agents COMPLETE | DOWNGRADED: FLUID 150→143 HOLD→CAUTIOUS | $696M TVL (-25%) | 55% stablecoin share | 2 security incidents 2026 | Incentives > Revenue</div>
+<h1>EARLYTHUNDER SPRINT 45 — ETH DEEP DIVE (5-AGENT VERIFIED)</h1>
+<div class="sub">5-Agent ETH Deep Dive Sprint | Jun 11, 2026 | 251 Tokens | MCP Live Prices</div>
+<div class="sub" style="color:var(--yellow)">ETH $1,639.20 (-66.9% ATH $4,946) | 15 Citations | $2.3-2.73B annual fees | Burn COLLAPSED 71% | NET INFLATIONARY +0.23%/yr | ETH/BTC 0.0279 10mo low</div>
+<div class="sub" style="color:var(--red)">5/5 agents COMPLETE | ADJUSTED: ETH 199→187 HOLD CORE | 9 EF departures | $46.17B TVL (L1) | Goldman 288K ETH | Commodity classification | Still Tier 1</div>
 </div>
 
 <nav class="nav">
@@ -63,7 +63,7 @@ tr.v-w{background:#1a0a0a} tr.v-p{opacity:0.5}
 
 <div class="ticker">
 <span>BTC $67,188 <span class="neg">-3.9%</span></span>
-<span>ETH $1,877 <span class="neg">-5.2%</span></span>
+<span style="color:var(--yellow);font-weight:bold">ETH $1,639 <span class="neg">-66.9% ATH</span></span>
 <span>HYPE $72.38 <span class="pos">+0.2%</span></span>
 <span>SOL $75.17 <span class="neg">-5.6%</span></span>
 <span>NEAR $2.832 <span class="pos">+9.2%</span></span>
@@ -128,6 +128,10 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 <td style="color:var(--red);font-weight:bold">150→143</td><td style="color:var(--red);font-weight:bold">HOLD→CAUTIOUS</td>
 <td style="font-size:10px"><b>Sprint 44 Deep Dive (5 agents):</b> CRITICAL: "$45.5M revenue" was FEES — actual revenue $12.68M (17% take rate). Buybacks HALTED since Mar 2026 (Resolv $21M bad debt). TVL declining $930M→$696M. Incentives ($13.1M) > Revenue ($12.68M). Two security incidents 2026. But: #2 DEX Ethereum, 55% stablecoin share, Smart Collateral/Debt unique, 39x capital efficiency, 100M fixed supply, all vesting complete. 15 citations, 8 red flags, 8 conviction signals.</td></tr>
 
+<tr style="background:#1a1a0a;border:1px solid var(--yellow)"><td style="color:var(--yellow);font-weight:bold">ETH ★</td><td>$1,639 <span class="neg">-0.2%</span></td>
+<td style="color:var(--yellow);font-weight:bold">199→187</td><td style="color:var(--yellow);font-weight:bold">HOLD CORE (adjusted)</td>
+<td style="font-size:10px"><b>Sprint 45 Deep Dive (5 agents):</b> Honest reassessment. Burn COLLAPSED 71% post-Pectra (3.26 ETH/day vs 1,700 issuance). NET INFLATIONARY +0.23%/yr. ETH/BTC 0.0279 10mo low, -32% YTD. 9 EF departures (Stańczak, Beiko, Monnot). Dev count -34% (brain drain to AI). DeFi dominance 68%→53%. SOL overtook DEX vol. BUT: SEC-CFTC commodity (Mar 17), Goldman 288K ETH, BlackRock ETHB staking ETF live, $170B stablecoins (60%), $46.17B TVL, 39.2M staked (32%), CLARITY Act Jul 4. 15 citations, 10 red flags, 10 conviction signals.</td></tr>
+
 <tr><td style="color:var(--green)">MORPHO</td><td>$1.990 <span class="neg">-1.1%</span></td>
 <td>157→158</td><td style="color:var(--cyan)">HOLD (up)</td>
 <td>Apollo 9% stake ($938B AUM). Coinbase $2.17B originations. Fee switch still OFF.</td></tr>
@@ -153,7 +157,7 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 
 <!-- 250-TOKEN SCORECARD -->
 <div class="section" id="scorecard">
-<h2 class="info">251-Token Scorecard — Sprint 44</h2>
+<h2 class="info">251-Token Scorecard — Sprint 45</h2>
 <div class="sc-controls">
 <input type="text" id="sc-search" placeholder="Search token..." oninput="filterSC()">
 <select id="sc-filter" onchange="filterSC()">
@@ -201,13 +205,13 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 <table id="sc-table">
 <thead><tr><th>Sym</th><th>Name</th><th>Score</th><th>Verdict</th><th>Price</th><th>24h</th><th>MCap</th><th>ATH%</th><th>Summary</th><th>V</th></tr></thead>
 <tbody id="sc-body"><tr class="v-hc" title="S30: RSI 22.2 oversold. $236M Maker liquidation at $1,787. 16-day ETF outflow streak. Still DeFi backbone.">
-<td>ETH</td><td style="font-size:11px">Ethereum</td>
-<td><b>190</b></td><td>HOLD CORE</td>
-<td>$1,877</td>
-<td class="neg">-5.2%</td>
-<td>$252.2B</td>
-<td>-61%</td>
-<td style="font-size:10px">Regulatory fortress + institutional monopoly. CLARITY Act di</td>
+<td style="color:var(--yellow);font-weight:bold">ETH ★</td><td style="font-size:11px">Ethereum</td>
+<td><b>187</b></td><td style="color:var(--yellow)">HOLD CORE ↓</td>
+<td>$1,639</td>
+<td class="neg">-66.9%</td>
+<td>$197.8B</td>
+<td>-66.9%</td>
+<td style="font-size:10px">S45: Burn collapsed 71%. Inflationary +0.23%. 9 EF departures. ETH/BTC 10mo low. BUT: commodity, Goldman, staking ETFs</td>
 <td>&#x2705;</td>
 </tr><tr class="v-hc" title="S40: 185→193 (+8). $800M-$1.3B rev, 97-99% buyback. 3 ETFs live ~$160M AUM. a16z $322M. Closed-source, FCA warning, 22% circ. ATH $75.51.">
 <td>HYPE</td><td style="font-size:11px">Hyperliquid</td>
