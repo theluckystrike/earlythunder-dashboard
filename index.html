@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>EarlyThunder Sprint 50 — SAND Deep Dive (5-Agent Verified)</title>
+<title>EarlyThunder Sprint 51 — RUNE Deep Dive (5-Agent Verified)</title>
 <style>
 :root{--bg:#0a0a0a;--fg:#e0e0e0;--cyan:#00e0ff;--green:#00ff88;--red:#ff4444;--yellow:#ffaa00;--dim:#666;--card:#111;--border:#222}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -43,10 +43,10 @@ tr.v-w{background:#1a0a0a} tr.v-p{opacity:0.5}
 </style></head><body>
 
 <div class="header">
-<h1>EARLYTHUNDER SPRINT 50 — SAND DEEP DIVE (5-AGENT VERIFIED)</h1>
-<div class="sub">5-Agent SAND Deep Dive Sprint | Jun 14, 2026 | 251 Tokens | MCP Live Prices</div>
-<div class="sub" style="color:var(--red)">SAND $0.052 (-99.4% ATH $8.44) | 15 Citations | 4,500 DAU | $312K daily vol | Founders ousted | 50% layoffs | Staking DEAD | LAND -98%</div>
-<div class="sub" style="color:var(--red)">5/5 agents COMPLETE | DOWNGRADED: SAND 68→58 PASS | Metaverse DEAD | Animoca selling pre-Nasdaq | Season rewards $2.5M→$34K | NEXT mobile TBD</div>
+<h1>EARLYTHUNDER SPRINT 51 — RUNE DEEP DIVE (5-AGENT VERIFIED)</h1>
+<div class="sub">5-Agent RUNE Deep Dive Sprint | Jun 14, 2026 | 251 Tokens | MCP Live Prices</div>
+<div class="sub" style="color:var(--red)">RUNE $0.381 (-98.2% ATH $20.87) | 15 Citations | Protocol HALTED 30d | $10.8M exploit | $200M lending default | $1.2B Lazarus laundering</div>
+<div class="sub" style="color:var(--red)">5/5 agents COMPLETE | DOWNGRADED: RUNE 148→106 HOLD→PASS | TVL -85% | Bug bounty KILLED | Core dev resigned | TCY 10% tax forever | OFAC warning</div>
 </div>
 
 <nav class="nav">
@@ -77,6 +77,7 @@ tr.v-w{background:#1a0a0a} tr.v-p{opacity:0.5}
 <span>UNI $2.507 <span class="neg">-0.9%</span></span>
 <span style="color:var(--green);font-weight:bold">LINK $7.785 <span class="neg">-85.3% ATH</span></span>
 <span style="color:var(--red);font-weight:bold">SAND $0.052 <span class="neg">-99.4% ATH</span></span>
+<span style="color:var(--red);font-weight:bold">RUNE $0.381 <span class="neg">-98.2% ATH</span></span>
 <span>BNB $644.19 <span class="neg">-5.8%</span></span>
 <span>MORPHO $1.990 <span class="neg">-1.1%</span></span>
 <span>JUP $0.1508 <span class="neg">-5.0%</span></span>
@@ -155,6 +156,10 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 <td style="color:var(--red);font-weight:bold">68→58</td><td style="color:var(--red);font-weight:bold">PASS (downgraded)</td>
 <td style="font-size:10px"><b>Sprint 50 Deep Dive (5 agents):</b> DOWNGRADED. -99.4% ATH = worst performer in 251-token scorecard. 4,500 DAU (many bots). Both founders OUSTED Aug 2025. 50% layoffs (~500→~250). Animoca CONFIRMED selling 25M SAND to Binance Nov 2024. Staking DEAD Jun 2025. ZERO burn. Season rewards collapsed $2.5M→$34K. LAND floor -98% (0.036 ETH). 12 daily LAND buyers. $312K daily vol. Meme coin pivot announced then denied. Metaverse narrative buried (Meta burned $90B). BUT: Vesting complete, NEXT mobile UE5 playtest done, SANDchain testnet live, Animoca Nasdaq Q3 2026. 15 citations, 10 red flags, 6 conviction signals.</td></tr>
 
+<tr style="background:#2a0a0a;border:1px solid var(--red)"><td style="color:var(--red);font-weight:bold">RUNE ★</td><td>$0.381 <span class="neg">-98.2% ATH</span></td>
+<td style="color:var(--red);font-weight:bold">148→106</td><td style="color:var(--red);font-weight:bold">HOLD→PASS</td>
+<td style="font-size:10px"><b>Sprint 51 Deep Dive (5 agents):</b> DOWNGRADED. Protocol HALTED since May 15, 2026 ($10.8M exploit via GG20 TSS vulnerability). $200M THORFi lending default (Jan 2025), permanently deprecated, TCY token = 10% perpetual revenue tax. $1.2B Lazarus Group laundering ($3.4B total), Treasury OFAC warning. Core dev Pluto RESIGNED. Bug bounty KILLED. V12 has undisclosed vulns. TVL $329M→$50M (-85%). ZERO revenue 30 days. BUT: ADR-023 reduced max supply 500M→360M, zero inflation, 94% circulating. ADR-17 protocol-owned burn. $118B cumulative volume. Chainflip growing ($583M/mo). 15 citations, 10 red flags, 8 conviction signals.</td></tr>
+
 <tr><td style="color:var(--green)">MORPHO</td><td>$1.990 <span class="neg">-1.1%</span></td>
 <td>157→158</td><td style="color:var(--cyan)">HOLD (up)</td>
 <td>Apollo 9% stake ($938B AUM). Coinbase $2.17B originations. Fee switch still OFF.</td></tr>
@@ -180,7 +185,7 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 
 <!-- 250-TOKEN SCORECARD -->
 <div class="section" id="scorecard">
-<h2 class="info">251-Token Scorecard — Sprint 50</h2>
+<h2 class="info">251-Token Scorecard — Sprint 51</h2>
 <div class="sc-controls">
 <input type="text" id="sc-search" placeholder="Search token..." oninput="filterSC()">
 <select id="sc-filter" onchange="filterSC()">
@@ -677,15 +682,15 @@ Strategy sold 32 BTC (first in 4yrs) | 11 consecutive ETF outflow days ($3.45B) 
 <td>-63%</td>
 <td style="font-size:10px">ZK rollup perp DEX. $77-101M rev, P/S 3.7x. $89M VC. Plonky2 STARK. 83% vol collapse. Dec 2026 500M cliff.</td>
 <td style="color:var(--yellow)">&#x1F195;</td>
-</tr><tr class="v-w" title="S29: ATH -98%. Max supply 500M. Bybit laundering risk.">
-<td>RUNE</td><td style="font-size:11px">THORChain</td>
-<td><b>125</b></td><td>WATCH</td>
-<td>$0.4050</td>
-<td class="pos">+0.0%</td>
-<td>$154M</td>
-<td>-88%</td>
-<td style="font-size:10px">Native cross-chain DEX with $118B+ cumulative volume. P/S of</td>
-<td>&#x2705;</td>
+</tr><tr class="v-p" title="S51: Protocol HALTED. $10.8M exploit. $200M lending default. $1.2B Lazarus laundering. TVL -85%. Bug bounty killed. Core dev resigned. Max supply 360M (ADR-023).">
+<td style="color:var(--red);font-weight:bold">RUNE</td><td style="font-size:11px">THORChain</td>
+<td><b style="color:var(--red)">106</b></td><td style="color:var(--red)">PASS</td>
+<td>$0.381</td>
+<td class="neg">-98.2% ATH</td>
+<td>$137M</td>
+<td>-85%</td>
+<td style="font-size:10px">HALTED 30d. $10.8M exploit. $200M THORFi default. TCY 10% tax. Lazarus $1.2B. TVL $50M. Bug bounty killed.</td>
+<td style="color:var(--red)">&#x1F195;</td>
 </tr><tr class="v-ch">
 <td>TRX</td><td style="font-size:11px">TRON</td>
 <td><b>125</b></td><td>CAUTIOUS HOLD</td>
